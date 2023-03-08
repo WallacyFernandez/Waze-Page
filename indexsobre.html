@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waze sobre</title>
+    <link rel="stylesheet" href="./modules/estilosobre.css">
+
+</head>
+
+<body>
+
+    
+
+    <div class="conteudo">
+
+        <div class="voltar">
+            <a href="index.html" class="btn"
+              >Voltar <span><ion-icon name="arrow-forward-outline"></ion-icon></span
+            ></a>
+            
+            <script
+              type="module"
+              src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+            ></script>
+            <script
+              nomodule
+              src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+            ></script>
+        </div>
+
+        <div class="lista__cards">
+            <button class="lista__cards__btn btn btn-esquerda">
+                <div class="icone">
+                    <svg>
+                        <use xlink:href="#flexa-esquerda"></use>
+                    </svg>
+                </div>
+            </button>
+
+            <div class="conteudo__cards">
+                <div class="card card--corrente">
+                    <div class="imagem--card">
+                        <img src="./assets/wallacy.jpeg" />
+                    </div>
+                </div>
+
+                <div class="card card--proximo">
+                    <div class="imagem--card">
+                        <img src="./assets/zirlangio.jpeg" />
+                    </div>
+                </div>
+
+                <div class="card card--anterior">
+                    <div class="imagem--card">
+                        <img src="./assets/wagner.jpeg" />
+                    </div>
+                </div>
+            </div>
+
+            <button class="lista__cards__btn btn btn--direita">
+                <div class="icone">
+                    <svg>
+                        <use xlink:href="#arrow-right"></use>
+                    </svg>
+                </div>
+            </button>
+        </div>
+
+        <div class="listagem__informacoes">
+            <div class="conteudo__informacoes">
+                <div class="info informacoes__corrente">
+                    <h1 class="texto nome">Desenvolvedor Full Stack</h1>
+                    <h4 class="texto localizacao">Wallacy</h4>
+                    <p class="texto descricao">Founder of Waze</p>
+                </div>
+
+                <div class="info informacoes__seguinte">
+                    <h1 class="texto nome">Desenvolvedor Front End</h1>
+                    <h4 class="texto localizacao">Zirlangio</h4>
+                    <p class="texto descricao">Founder of Waze</p>
+                </div>
+
+                <div class="info informacoes__anterior">
+                    <h1 class="texto nome">Desenvolvedor Front End</h1>
+                    <h4 class="texto localizacao">Wagner</h4>
+                    <p class="texto descricao">Founder of Waze</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="conteudo__background">
+            <div class="conteudo__backgorund__imagem imagem--corrente">
+                <img src="./assets/wallacy.jpeg" alt="" />
+            </div>
+            <div class="conteudo__backgorund__imagem imagem--proxima">
+                <img src="./assets/zirlangio1.jpeg" alt="" />
+            </div>
+            <div class="conteudo__backgorund__imagem imagem--anterior">
+                <img src="./assets/wagner1.jpeg" alt="" />
+            </div>
+        </div>
+    </div>
+
+    <div class="conteudo__carregamento">
+        <div class="carregamento"></div>
+    </div>
+
+
+    <svg class="icones" style="display: none;">
+        <symbol id="flexa-esquerda" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+            <polyline points='328 112 184 256 328 400'
+                style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+        </symbol>
+        <symbol id="arrow-right" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+            <polyline points='184 112 328 256 184 400'
+                style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+        </symbol>
+    </svg>
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
+    <script src="./scripts/scriptsobre.js"></script>
+</body>
+
+</html>
