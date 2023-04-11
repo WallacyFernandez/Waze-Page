@@ -1,8 +1,8 @@
 # PageWaze
  
-Bem-vindo à página! Dedicada a um grupo de desenvolvedores.
+Bem-vindo a página! Dedicada a um grupo de desenvolvedores.
 
-## Acesso à página replicada
+## Acesso a página
 A página replicada pode ser acessada através deste link: https://wallacyfernandez.github.io/Waze-Page/
 
 ## Rodando o projeto localmente
