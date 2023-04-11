@@ -3,7 +3,7 @@
 Bem-vindo a página! Dedicada a um grupo de desenvolvedores.
 
 ## Acesso a página
-A página replicada pode ser acessada através deste link: https://wallacyfernandez.github.io/Waze-Page/
+A página pode ser acessada através deste link: https://wallacyfernandez.github.io/Waze-Page/
 
 ## Rodando o projeto localmente
 Para rodar o projeto localmente, siga os seguintes passos:
