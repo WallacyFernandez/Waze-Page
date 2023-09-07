@@ -227,6 +227,7 @@ margin-left: -3rem;
 .conteiner .logreg-box{
 
     position: absolute;
+    backdrop-filter: blur(20px);
     top: 0;
     right: 0;
     width: calc(100% - 58%);
